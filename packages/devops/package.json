@@ -1,0 +1,34 @@
+{
+    "name": "@iac-factory/aws-organization-devops",
+    "version": "0.1.1",
+    "private": true,
+    "description": "...",
+    "author": "Jacob B. Sanders <jacob.sanders@cloudhybrid.io> (https://github.com/iac-factory)",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "build": "tsc --build $(dirname $(npm root))/tsconfig.json",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@jest/types": "^28.1.0",
+        "@types/node": "17.0.36",
+        "@types/prettier": "2.6.0",
+        "jest": "^28.1.0",
+        "ts-jest": "^28.0.3",
+        "aws-cdk": "2.26.0",
+        "ts-node": "^10.7.0",
+        "typescript": "4.7.2"
+    },
+    "dependencies": {
+        "@iac-factory/ecma": "^0.2.11",
+        "tslib": "^2.4.0",
+        "aws-cdk-lib": "2.26.0",
+        "constructs": "^10.1.23",
+        "source-map-support": "^0.5.21"
+    },
+    "publishConfig": {
+        "access": "restricted",
+        "registry": "npm.pkg.github.com",
+        "tag": "latest"
+    }
+}
