@@ -22,7 +22,7 @@
     "dependencies": {
         "@iac-factory/ecma": "^0.2.11",
         "tslib": "^2.4.0",
-        "aws-cdk-lib": "2.26.0",
+        "aws-cdk-lib": "2.184.0",
         "constructs": "^10.1.23",
         "source-map-support": "^0.5.21"
     },
